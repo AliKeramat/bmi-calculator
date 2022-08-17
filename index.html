@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="BMIC">BMI Calculator</h1>
+    <form id="form">
+      <label id="enterH">Enter your height :</label> <br />
+      <input type="number" id="hNumber" placeholder="in meters" /> <br />
+      <label id="enterW">Enter your weight :</label> <br />
+      <input type="number" id="wNumber" placeholder="in kilograms" /> <br />
+    </form>
+    <button id="sub-btn" type="submit">Submit</button>
+    <div class="status">
+      <h2 id="statusH2">Your BMI</h2>
+      <p id="statusP">Your status</p>
+    </div>
+    <div>
+      <blockquote
+        cite="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html"
+      >
+        <h3 id="T1">What is bmi?</h3>
+        <p id="HIB">
+          Body mass index (BMI) is a person’s weight in kilograms divided by the
+          square of height in meters. BMI is an inexpensive and easy screening
+          method for weight category—underweight, healthy weight, overweight,
+          and obesity. BMI does not measure body fat directly, but BMI is
+          moderately correlated with more direct measures of body fat
+          Furthermore, BMI appears to be as strongly correlated with various
+          metabolic and disease outcome as are these more direct measures of
+          body fatness
+        </p>
+        <h3 id="T2">How is BMI used?</h3>
+        <p id="HIBU">
+          BMI can be a screening tool, but it does not diagnose the body fatness
+          or health of an individual. To determine if BMI is a health risk, a
+          healthcare provider performs further assessments. Such assessments
+          include skin fold thickness measurements, evaluations of diet,
+          physical activity, and family history
+        </p>
+        <h3 id="T3">How is BMI calculated?</h3>
+        <p id="HIBC">
+          Your weight <sub>(K)</sub> ÷ Your height<sup>2</sup><sub>(M)</sub>
+        </p>
+      </blockquote>
+    </div>
+    <button id="lan-switch">FA</button>
+    <script src="./script.js"></script>
+  </body>
+</html>
